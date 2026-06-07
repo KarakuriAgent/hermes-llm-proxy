@@ -20,6 +20,12 @@ SOUL、memory、tools、session保存、compactはすべて通りません。
 - `stream: true` に対応します。
 - Responses APIを直接持たないproviderではエラーになります。
 
+## 主な環境変数
+
+- `HERMES_SRC` default: `/opt/hermes`
+  - Hermes source tree のパス。別パスにマウントする場合はこの値も変更してください。
+- `HERMES_HOME` default: `/opt/data`
+
 ## 用途
 
 Hermesの認証設定を再利用しつつ、Hermesのエージェント処理を通さずに
